@@ -26,8 +26,8 @@ function App() {
         <a  id="achor"href="#roadMap">ROAD MAP</a>
         <a id="achor" href="#team">TEAM</a>
         <a  id="achor"href="#faq">FAQ</a>
-        <a id="headImg"><img src="insta.png"/><img src="twitter.png"/><FaDiscord size="2.5em" style={{padding:"5px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/></a>
-        <button  style={{fontWeight:"bold",fontSize:"18px"}}className="navButton">MINT EVIl APE</button>
+        <a id="headImg"><img src="insta.png"/><img src="twitter.png"/>< FaDiscord className="discodIcon" size="2.5em" style={{padding:"5px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/></a>
+        <button  style={{fontWeight:"bold",fontSize:"18px"}}className="navButton">MINT EVIL APE</button>
       </div>
 
 
@@ -164,14 +164,14 @@ function App() {
 
 
           <div className="teamMembers">
-            <img src="circle-team-2.png" height="200" width="200"/>
+            <img src="circle-team-2.png" />
             <h3>EVIL kinirvel</h3>
             <span>Marketing\PR</span>
             {/* <small>Lorem ipsum dolor si amit</small> */}
           </div>
           
           <div className="teamMembers">
-            <img src="circle-team-6.png" height="200" width="200"/>
+            <img src="circle-team-6.png" />
             <h3>The EVIL ONE</h3>
             <span>Founder-The Evil One</span>
             {/* <small>Lorem ipsum dolor si amit</small> */}
@@ -179,7 +179,7 @@ function App() {
 
 
           <div className="teamMembers">
-            <img src="circle-team-3.png" height="200" width="200"/>
+            <img src="circle-team-3.png" />
             <h3>Pirate</h3>
             <span>Artist</span>
             {/* <small>Lorem ipsum dolor si amit</small> */}
@@ -189,7 +189,7 @@ function App() {
           
 
           <div className="teamMembers">
-            <img src="circle-team-5.png" height="200" width="200"/>
+            <img src="circle-team-5.png"/>
             <h3>ABash</h3>
             <span>Dev \ Web 3 Expert</span>
             {/* <small>Lorem ipsum dolor si amit</small> */}
