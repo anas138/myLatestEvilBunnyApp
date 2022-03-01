@@ -202,7 +202,7 @@ width: 30px;
   display: flex;
   justify-content: flex-end;
   padding-right: 90px;
-  height: 125vh;
+  height: 180vh;
  
   
 }
@@ -216,7 +216,7 @@ width: 30px;
 }
 .faq-text div{
   font-size: 25px;
-  margin: 10px 2px;
+  margin: 20px 2px;
   border-bottom: 1px solid rgb(233, 227, 227);
   padding: 10px;
   
