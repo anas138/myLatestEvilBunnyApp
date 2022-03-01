@@ -212,7 +212,7 @@ function App() {
         <div className="faq-text">
            <span className="h2">FAQ</span>
            
-           <div onClick={()=>{questiClick(1)}}>Q : WHAT IS THE TOTALAMOUNT OF NFTS IN THE EVIL<br/>  APE CLUB COLLECTION? {index==1 && answer==true?     <FaSortUp />: <FaSortDown /> }</div> 
+           <div onClick={()=>{questiClick(1)}}>Q : WHAT IS THE TOTALAMOUNT OF NFTS IN THE EVIL APE CLUB COLLECTION? {index==1 && answer==true?     <FaSortUp />: <FaSortDown /> }</div> 
            <div className={`${(answer==true && index==1)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine">A : THERE ARE 6969 UNIQUE EVIL APES</div>
            
            <div onClick={()=>{questiClick(2)}} >Q : HOW MUCH IS IT TO MINT? {index==2 && answer==true?<FaSortUp/>:<FaSortDown/>}</div>

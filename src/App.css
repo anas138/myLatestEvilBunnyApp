@@ -709,7 +709,7 @@ width: 30px;
    margin-left: 200px !important;
   }
   .faq-text div{
-    font-size: 15px !important;
+    font-size: 12px !important;
     margin-left: 10px!important;
     margin-top: 20px !important;
     overflow-wrap: break-word;
@@ -719,8 +719,6 @@ width: 30px;
   .faq-text{
     margin-top: 100px !important;
     margin-left: 50px !important;
-    display: flex;
-    flex-direction: column;
   }
  
  
