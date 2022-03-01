@@ -430,11 +430,12 @@ width: 30px;
   }
   .teamMembers{
     display: block !important;
+    margin: 5px;
   }
   .teamMembers img{
     
-    height: 100px !important;
-    width: 100px !important;
+    height: 120px !important;
+    width: 120px !important;
     display: block !important;
  }
  .roadMapImg{
