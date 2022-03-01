@@ -202,7 +202,7 @@ width: 30px;
   display: flex;
   justify-content: flex-end;
   padding-right: 90px;
-  height: 180vh;
+  height: 120vh;
  
   
 }
@@ -571,7 +571,7 @@ width: 30px;
     margin-left:50px;
   }
   .FAQ{
-    height: 200vh !important;
+    height: 220vh !important;
     
   }
   
