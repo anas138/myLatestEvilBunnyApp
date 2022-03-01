@@ -67,7 +67,9 @@ function App() {
     </div>
 
    <div className="imagesWraper">
+     
     <div className="images">
+    <h2 style={{color:"white",fontSize:"45px"}}>My Gallery</h2>
           <div>
           <img src="1.png" style={{position:"relative",bottom:"125px"}}/>
           <img src="2.png"/>

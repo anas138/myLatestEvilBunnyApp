@@ -525,6 +525,10 @@ width: 30px;
 }
 }
 @media all and (max-width: 440px){
+  .calender{
+    padding: 5px 25px !important;
+    margin-bottom: 20px;
+  }
 
   .FAQ{
     background-image: url("../public/faq-bg.png") no-repeat center center fixed;
@@ -613,6 +617,9 @@ width: 30px;
 
 
 @media all and (max-width: 440px){
+  .roadmApText{
+    overflow-y: hidden !important;
+  }
   .evil-text{
     background-color: rgb(185, 21, 21);
     border: 0;
@@ -667,6 +674,7 @@ width: 30px;
    }
    .teamMembers img{
      text-align: center;
+     margin: 10px !important;
    }
    .images{
      
@@ -692,6 +700,7 @@ width: 30px;
     width: 400px !important;
     
   }
+
   .faq-text h2{
    margin-left: 200px !important;
   }
