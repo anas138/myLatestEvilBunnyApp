@@ -548,6 +548,11 @@ width: 30px;
 
 
 @media all and (max-width: 440px){
+  *{
+    margin: 0px !important;
+    box-sizing: border-box;
+    
+  }
   .wrapper{
     height: 130vh !important;
     width: 100%;
@@ -588,7 +593,7 @@ width: 30px;
      margin-left:0px !important;
    }
    .sideHeading{
-    margin-left:50px;
+    margin-left:0px !important;
   }
   .FAQ{
     height: 140vh !important;
