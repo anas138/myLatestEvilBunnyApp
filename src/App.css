@@ -206,6 +206,10 @@ width: 30px;
  
   
 }
+.h2{
+     font-size: 50px;
+     margin-top: 10px;
+}
 .faq-text{
   
   display: flex;
@@ -216,7 +220,7 @@ width: 30px;
 }
 .faq-text div{
   font-size: 25px;
-  margin: 20px 2px;
+  margin: 10px 2px;
   border-bottom: 1px solid rgb(233, 227, 227);
   padding: 10px;
   

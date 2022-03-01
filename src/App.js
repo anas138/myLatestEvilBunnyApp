@@ -208,7 +208,7 @@ function App() {
       <div className="FAQ" id="faq">
         
         <div className="faq-text">
-           <h1>FAQ</h1>
+           <span className="h2">FAQ</span>
            
            <div onClick={()=>{questiClick(1)}}>Q : WHAT IS THE TOTALAMOUNT OF NFTS IN THE EVIL<br/>  APE CLUB COLLECTION? {index==1 && answer==true?     <FaSortUp />: <FaSortDown /> }</div> 
            <div className={`${(answer==true && index==1)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine">A : THERE ARE 6969 UNIQUE EVIL APES</div>
