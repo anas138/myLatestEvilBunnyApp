@@ -208,11 +208,10 @@ width: 30px;
 }
 .faq-text{
   margin-top: 150px;
-  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
   color: whitesmoke;
   cursor: pointer;
-  opacity: 0.8;
-  
   overflow: hidden;
 }
 .faq-text div{
@@ -350,7 +349,21 @@ width: 30px;
 
 
 @media all and (max-width: 900px) {
+.FAQ{
+  background-image: url("../public/faq-bg.png") no-repeat center center fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+}
+
   .wrapper{
+    background-image: url("../public//banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     width: 100%;
   }
   .header{
@@ -431,9 +444,26 @@ width: 30px;
   
 }
 @media all and (max-width: 500px){
-  .wrapper{
-    width: 500px;
+
+
+  .FAQ{
+    background-image: url("../public/faq-bg.png") no-repeat center center fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      width: 100%;
   }
+  .wrapper{
+    
+      background-image: url("../public//banner.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      width: 100%;
+    }
+  
   .header{
     display: flex;
     width: 460px;
@@ -490,6 +520,23 @@ width: 30px;
 }
 }
 @media all and (max-width: 440px){
+
+  .FAQ{
+    background-image: url("../public/faq-bg.png") no-repeat center center fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      width: 100%;
+  }
+  .FAQ{
+    background-image: url("../public/faq-bg.png") no-repeat center center fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      width: 100%;
+  }
   .wrapper{
     width: 400px;
     height: 500px;
@@ -561,6 +608,14 @@ width: 30px;
 
 
 @media all and (max-width: 440px){
+  .wrapper{
+    background-image: url("../public//banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+  }
   *{
     margin: 0px !important;
     box-sizing: border-box;
@@ -604,8 +659,12 @@ width: 30px;
    }
    .images{
      
+    
    }
-   .images img {
+   .images div img {
+    width: 80% !important ;
+    height: 80% !important;
+    margin: 10px 0px !important;
     
  
     
