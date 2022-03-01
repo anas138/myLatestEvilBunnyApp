@@ -80,6 +80,10 @@ function App() {
           <img src="5.png" style={{position:"relative",bottom:"125px"}}/>
           <img src="6.png" style={{position:"relative",bottom:"125px"}}/>
           </div>
+          <div>
+          <img src="gallery-1.png" style={{position:"relative",bottom:"125px"}}/>
+          <img src="galler-2.png" style={{position:"relative",bottom:"125px"}}/>
+          </div>
          
           
           
@@ -170,14 +174,14 @@ function App() {
 
 
           <div className="teamMembers">
-            <img src="circle-team-2.png" />
+            <img src="team-1.png" />
             <h3>EVIL kinirvel</h3>
             <span>Marketing\PR</span>
             {/* <small>Lorem ipsum dolor si amit</small> */}
           </div>
           
           <div className="teamMembers">
-            <img src="circle-team-6.png" />
+            <img src="team-2.png" />
             <h3>The EVIL ONE</h3>
             <span>Founder-The Evil One</span>
             {/* <small>Lorem ipsum dolor si amit</small> */}
