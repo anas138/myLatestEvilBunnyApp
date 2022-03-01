@@ -360,6 +360,10 @@ width: 30px;
     
     
   }
+  .flexHeader{
+    display: flex !important;
+   
+  }
   .header a img{
     margin-left: 2px;
     height: 30px;
@@ -559,13 +563,22 @@ width: 30px;
   }
 
   .header{
+    position: relative;
     margin-top:0px;
     width: 100%;
     
    }
+   .flexHeader{
+     display: flex !important;
+    
+   }
+   
    .header a{
-     display: inline !important;
-     
+    margin: 10px 5px !important;
+    
+    
+
+    
    }
    .team{
      display: flex;
