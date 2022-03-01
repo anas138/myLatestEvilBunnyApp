@@ -225,15 +225,17 @@ width: 30px;
 } 
 .images{
   background-color: black;
-  padding: 50px;
-  margin-left: 250px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
 }
 
 .images img {
-  margin: 10px;
-  position: relative;
   
+  margin: 10px;
 
 }
 .navButton{
@@ -380,10 +382,15 @@ width: 30px;
   .sideHeading{
     margin-left:200px;
   }
+  .images{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
   .images img {
     
-    position: static;
-    margin-left: 20%;
+    
     
   }
   
@@ -410,16 +417,12 @@ width: 30px;
 
   .images{
     background-color: black;
-    padding: 10px;
-    position: absolute;
-    overflow: hidden;
+    
 
   }
   
   .images img {
-    bottom: 100px;
-    position: absolute;
-    left: -300px !important;
+    
     
     top: 10px !important;
   }
@@ -457,14 +460,14 @@ width: 30px;
    width: 300px;
  }
  .images{
-   position: absolute;
-   margin-left: -200px !important;
-   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
  }
  .images img {
     
-  position: relative;
-  left: 0px !important;
+  
   
   
 
@@ -512,17 +515,7 @@ width: 30px;
      text-align: center;
    }
    .images img {
-    margin: 0px;
-    padding: 0px;
-    display: block;
-    position: relative;
-    bottom: 0;
-    top: 0;
-    width: 200px !important;
-    height: 200px !important;
-    margin: 5px !important;
-    text-align: center;
-    left:20%;
+   
    }
    .FAQ{
      margin-left: 50px;
@@ -557,14 +550,7 @@ width: 30px;
 @media all and (max-width: 1300px){
 
   .images img {
-    left: 10%;
-    margin-left: 200px;  
-    width: 300px !important;
-    height: 300px !important;
-    margin: 5px;
-    padding: 0px;
-    top: 0px;
-    bottom: 0px;
+   
   }
   .FAQ{
     height: 150vh !important;
@@ -617,23 +603,11 @@ width: 30px;
      text-align: center;
    }
    .images{
-     display: absolute !important;
-     position: flex !important;
-     flex-direction: column !important;
-     align-items: center !important ;
-     justify-content: center !important;
-     left: 70px !important;
-    
+     
    }
    .images img {
     
-    display: flex;
-    bottom: 0;
-    top: 0;
-    width: 100px !important;
-    height: 100px !important;
-    margin: 15px !important;
-    text-align: center;
+ 
     
     
    }
@@ -696,53 +670,33 @@ width: 30px;
 }
 @media all and (main-width: 1000px){
   .images{
-    background-color: black;
-    padding: 10px;
-    position: relative;
+   
   }
   
   .images img {
-    bottom: 100px;
-    position: relative;
-    right: -200px !important;
+    
   }
 
 }
 @media all and (max-width: 1452px){
   .images{
-    background-color: black;
-    padding: 10px;
-    position: relative;
-    overflow: hidden;
+   
 
   }
   
   .images img {
-    bottom: 100px;
-    position: relative;
-    right: -200px !important;
-    overflow: hidden;
-    left: 30px !important;
-    top: 10px !important;
+   
   }
 
 }
 @media all and (max-width: 2400px){
   .images{
-    background-color: black;
-    padding: 10px;
-    position: relative;
-    overflow: hidden;
+    
 
   }
   
   .images img {
-    bottom: 100px;
-    position: relative;
-    left: -100pxpx !important;
-    overflow: hidden;
-    left: 30px !important;
-    top: 10px !important;
+   
   }
 
 }
