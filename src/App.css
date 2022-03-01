@@ -208,10 +208,11 @@ width: 30px;
 }
 .h2{
      font-size: 50px;
-     margin-top: 10px;
+     
+     
 }
 .faq-text{
-  
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   color: whitesmoke;
