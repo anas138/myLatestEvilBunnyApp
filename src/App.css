@@ -426,7 +426,7 @@ width: 30px;
     cursor: pointer;
     font-size: 15px!important;
   }
-  .discodIcon{
+  .discodIcon,.insta,.twit{
     font-size: 10px !important;
   }
   .headerlogo{
@@ -733,13 +733,13 @@ width: 30px;
     font-size: 10px !important;
   
 }
-.discodIcon{
+.discodIcon,.insta,.twit{
   font-size: 12px !important;
 }
 .roadmApText{
   margin-bottom: 200px !important;
 }
-.header a img, .discodIcon{
+.header a img, .discodIcon,.insta,.twit{
   margin: 5px !important;
 
 }

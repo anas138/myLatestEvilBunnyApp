@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from "react"
 import './App.css';
-import { FaDiscord,FaSortDown,FaSortUp } from "react-icons/fa";
+import { FaDiscord,FaSortDown,FaSortUp,FaInstagram,FaTwitter } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
@@ -29,7 +29,7 @@ function App() {
         <a  id="achor"href="#faq">FAQ</a>
         </div>
         
-        <a id="headImg"><img src="insta.png"/><img src="twitter.png"/>< FaDiscord className="discodIcon" size="2.5em" style={{padding:"5px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/></a>
+        <a id="headImg"><FaInstagram className="insta"  size="2.5em" style={{padding:"7px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/><FaTwitter className="twit" size="2.5em" style={{padding:"7px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/>< FaDiscord className="discodIcon" size="2.5em" style={{padding:"7px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/></a>
         <button  style={{fontWeight:"bold",fontSize:"18px"}}className="navButton">MINT EVIL APE</button>
         
       </div>
@@ -115,9 +115,9 @@ function App() {
       className="roadmApText" style={{color:"white"}} data-aos="fade-up" >
         
         <div  data-aos="fade-up" 
-     data-aos-duration="3000"><span id="number">15% </span>Marketing we will begin launching additional marketing with influencers <br/>
+     data-aos-duration="3000"><span id="number">15% </span>Marketing we will begin launching additional marketing with influencers<br/>
           that are relevant and significant in the NFT space to get more eyes than ever <br/>
-          on our projectduring and after our public sale.</div>
+          on our project   during and after our public sale.</div>
          <br/>
          <br/>
         <div  data-aos="fade-up"
@@ -126,35 +126,35 @@ function App() {
         <br/>
         
         <div  data-aos="fade-up"
-     data-aos-duration="3000"> <span id="number">50%</span> Acquire land in the Sandbox to establish our presence in the Metaverse.<br/>
-           We believe as the meta verse grows everyone need a place to call their own. <br/>
-           We will acquire land and build a unique meeting place exclusive to Evil Ape  <br/>
-            Club holders where we will host virtual community gatherings, holiday parties, <br/>
-            contest and more.</div>
+     data-aos-duration="3000"> <span id="number">50%</span>Acquire land in both Sandbox and Decentraland to establish our<br/>
+           presence in the Metaverse. We believe as the metaverse grows everyone need <br/>
+           a place to call their own. We will acquire land and build a unique meeting<br/>
+           place exclusive to Evil Ape Club holders where we will host virtual community<br/>
+           gatherings, holiday parties, contest and more.</div>
         <br/>
         <br/>
        <div  data-aos="fade-up"
      data-aos-duration="3000"> <span id="number">60%</span> 50 ETH goes directly into our community wallet, this will be used for<br/> 
-         Marketing,  Merch development, and this will be used in our community DAO, <br/>
+         Marketing, Merch development, and this will be used in our community DAO, <br/>
          where holders will be able to vote on community decisions as we ascend into <br/>
          the Metaverse</div>
        <br/>
        <br/>
        <div  data-aos="fade-up"
-     data-aos-duration="3000"> <span id="number">70%</span> We are going to be doing Limited edition Merch for now this includes <br/>
+     data-aos-duration="3000"> <span id="number">70%</span>We are going to be doing limited edition merch. For now this includes<br/>
          stylish T-Shirts, hoodies, and more. Designs will be limited to create <br/>
          exclusivity. Merch drops will be in limited supply</div>
        <br/>
        <br/>
        <div  data-aos="fade-up"
-     data-aos-duration="3000"><span id="number">80% </span> We will begin launching our staking contract that allows EAC <br/>
-         holders to earn $EVIL Coins, which can be used to purchase the following:<br/> 
-         NFTs, Whitelist to upcoming projects, Limited edition Metaverse wearables, <br/>
-         Limited edition Evil Ape Club Merch,  Vacations, Gift cards, ETH and more.</div>
+     data-aos-duration="3000"><span id="number">80% </span>We will begin launching our staking contract that allows EAC holders to<br/>
+         earn $EVIL coins. $EVIL can be used to purchase NFTs, Whitelist to upcoming<br/> 
+         projects, limited edition Metaverse wearables, limited edition Evil Ape Club<br/>
+         Merch, Gift cards, Vacations and more.</div>
        <br/>
        <br/>
        <div  data-aos="fade-up"
-     data-aos-duration="3000"><span id="number">100%</span> Roadmap v2.0 - At the completion of roadmap v1.5 we will unveil <br/>
+     data-aos-duration="3000"><span id="number">100%</span>100% Roadmap v2.0 - At the completion of roadmap v1.5 we will unveil <br/>
          roadmap v2.0…Stay Tuned…Stay evil !</div>
         </div>
 
