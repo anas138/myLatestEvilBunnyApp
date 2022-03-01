@@ -550,12 +550,13 @@ width: 30px;
 @media all and (max-width: 440px){
   .wrapper{
     height: 130vh !important;
+    width: 100%;
   }
 
   .header{
     margin-top:0px;
     width: 100%;
-    margin-left: -10px!important;
+    
    }
    .header a{
      display: inline !important;
