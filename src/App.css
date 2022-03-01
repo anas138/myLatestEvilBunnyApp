@@ -759,6 +759,15 @@ width: 30px;
   }
 
 }
+@media all and (max-width: 1200px){
+  .images img {
+     position: static !important;
+  }
+
+
+
+}
+
 
 
 

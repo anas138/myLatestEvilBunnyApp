@@ -69,14 +69,14 @@ function App() {
    <div className="imagesWraper">
     <div className="images">
           <div>
-          <img src="1.png" />
+          <img src="1.png" style={{position:"relative",bottom:"125px"}}/>
           <img src="2.png"/>
           <img src="3.png"/>
           </div>
           <div>
-          <img src="4.png"/>
-          <img src="5.png" />
-          <img src="6.png" />
+          <img src="4.png" style={{position:"relative",bottom:"125px"}}/>
+          <img src="5.png" style={{position:"relative",bottom:"125px"}}/>
+          <img src="6.png" style={{position:"relative",bottom:"125px"}}/>
           </div>
          
           
