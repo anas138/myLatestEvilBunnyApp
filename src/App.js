@@ -28,8 +28,10 @@ function App() {
         <a id="achor" href="#team">TEAM</a>
         <a  id="achor"href="#faq">FAQ</a>
         </div>
+        <div className="flexImages">
         <a id="headImg"><img src="insta.png"/><img src="twitter.png"/>< FaDiscord className="discodIcon" size="2.5em" style={{padding:"5px",borderRadius:"50%",backgroundColor:"rgb(185, 21, 21)",marginLeft:"5px"}}/></a>
         <button  style={{fontWeight:"bold",fontSize:"18px"}}className="navButton">MINT EVIL APE</button>
+        </div>
       </div>
 
 
