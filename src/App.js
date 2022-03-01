@@ -69,12 +69,12 @@ function App() {
    <div className="imagesWraper">
     <div className="images">
     
-          <img src="1.png"  style={{borderRadius:"10px", height:"250px" ,width:"400px",bottom:"150px"}}/>
-          <img src="2.png"   style={{borderRadius:"10px" , height:"400px" ,width:"400px"}}/>
-          <img src="3.png"   style={{borderRadius:"10px" , height:"400px" ,width:"320px"}}/>
-          <img src="4.png"   style={{borderRadius:"10px" , height:"400px" ,width:"400px",bottom:"50px"}}/>
-          <img src="5.png"   style={{borderRadius:"10px"  , height:"300px" ,width:"400px", bottom:"50px"}}/>
-          <img src="6.png"    style={{borderRadius:"10px" , height:"350px" ,width:"320px",bottom:"50px"}}/>
+          <img src="1.png"  style={{borderRadius:"10px", height:"250px" ,width:"350px",bottom:"150px"}}/>
+          <img src="2.png"   style={{borderRadius:"10px" , height:"400px" ,width:"350px"}}/>
+          <img src="3.png"   style={{borderRadius:"10px" , height:"400px" ,width:"350px"}}/>
+          <img src="4.png"   style={{borderRadius:"10px" , height:"400px" ,width:"350px",bottom:"40px"}}/>
+          <img src="5.png"   style={{borderRadius:"10px"  , height:"300px" ,width:"400px", bottom:"30px"}}/>
+          <img src="6.png"    style={{borderRadius:"10px" , height:"350px" ,width:"320px",bottom:"30px"}}/>
           {/* <img src="g.png"    style={{borderRadius:"10px" , height:"200px" ,width:"300px",bottom:"100px"}}/>
           <img src="h.png"    style={{borderRadius:"10px" , height:"200px" ,width:"300px",bottom:"100px"}}/>
           <img src="bunny.png"  style={{borderRadius:"10px" , height:"300px" ,width:"500px",bottom:"100px"}}/>
