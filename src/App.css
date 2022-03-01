@@ -599,17 +599,26 @@ width: 30px;
    .teamMembers img{
      text-align: center;
    }
+   .images{
+     display: absolute !important;
+     position: flex !important;
+     flex-direction: column !important;
+     align-items: center !important ;
+     justify-content: center !important;
+     left: -100px !important;
+    
+   }
    .images img {
     
-    display: block;
-    position: relative;
+    display: flex;
     bottom: 0;
     top: 0;
     width: 100px !important;
     height: 100px !important;
     margin: 0px !important;
     text-align: center;
-    left:100px !important;
+    
+    
    }
    .FAQ{
      margin-left:0px !important;
@@ -620,9 +629,11 @@ width: 30px;
   .FAQ{
     height: 140vh !important;
     
+    
   }
   .faq-text{
     margin-left: 10;
+    width: 300px !important;
   }
   .flexImages{
     display: flex !important;
