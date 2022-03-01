@@ -56,6 +56,10 @@ body{
 }
 .header a img{
   margin-left: 5px;
+  background-color: rgb(185, 21, 21);
+  color: white;
+  border-radius: 50%;
+  opacity: 1;
 }
 .headerlogo{
   width: 150px;
@@ -171,7 +175,7 @@ width: 30px;
   
 }
 .team{
-  background-color: whitesmoke;
+  background-color: black;
   padding: 20px;
   border-radius: 10px;
   display: grid;
@@ -192,7 +196,7 @@ width: 30px;
 
 }
 .teamMembers h3, .teamMembers small,.teamMembers span {
-  color: black;
+  color: white;
 }
 .FAQ{
   background-image: url("../public/faq-bg.png");
@@ -709,6 +713,7 @@ width: 30px;
     width: 400px!important;
     margin-left: 10px!important;
     margin-top: 20px !important;
+    overflow-wrap: break-word;
 
     
   }
