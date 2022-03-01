@@ -613,6 +613,12 @@ width: 30px;
 
 
 @media all and (max-width: 440px){
+  .evil-text{
+    background-color: rgb(185, 21, 21);
+    border: 0;
+    border-radius: 5px;
+    padding: 2px;
+  }
   .wrapper{
     background-image: url("../public//banner.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
