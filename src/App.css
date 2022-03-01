@@ -202,7 +202,7 @@ width: 30px;
   display: flex;
   justify-content: flex-end;
   padding-right: 90px;
-  min-height: 150px;
+  height: 125vh;
  
   
 }
@@ -212,7 +212,7 @@ width: 30px;
   color: whitesmoke;
   cursor: pointer;
   opacity: 0.8;
-  height: 100vh;
+  
   overflow: hidden;
 }
 .faq-text div{
@@ -387,10 +387,7 @@ width: 30px;
     width: 100px;
     height: 100px;
   }
-  .flexImages{
-    display: flex !important;
-  }
-
+  
 
   .navButton{
     background-color: rgb(185, 21, 21);
@@ -560,8 +557,9 @@ width: 30px;
 
 @media all and (max-width: 440px){
   *{
-    margin: 0px ;
+    margin: 0px !important;
     box-sizing: border-box;
+    overflow-x: hidden !important;
    
     
   }
@@ -605,7 +603,7 @@ width: 30px;
      flex-direction: column !important;
      align-items: center !important ;
      justify-content: center !important;
-     left: -100px !important;
+     left: 70px !important;
     
    }
    .images img {
@@ -627,17 +625,27 @@ width: 30px;
     margin-left:0px !important;
   }
   .FAQ{
-    height: 140vh !important;
+    height: 100vh !important;
+    width: 400px !important;
     
+  }
+  .faq-text h2{
+margin-left: 200px !important;
+  }
+  .faq-text div{
+    font-size: 15px !important;
+    width: 400px!important;
+    margin-left: 10px!important;
+    margin-top: 20px !important;
+
     
   }
   .faq-text{
-    margin-left: 10;
-    width: 300px !important;
+    margin-top: 100px !important;
+    margin-left: 50px !important;
   }
-  .flexImages{
-    display: flex !important;
-  }
+ 
+ 
 
   .navButton{
     background-color: rgb(185, 21, 21);
@@ -652,6 +660,14 @@ width: 30px;
 .discodIcon{
   font-size: 12px !important;
 }
+.roadmApText{
+  margin-bottom: 200px !important;
+}
+.header a img, .discodIcon{
+  margin: 5px !important;
+
+}
+
 }
 
 
