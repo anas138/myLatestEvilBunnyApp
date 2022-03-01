@@ -622,7 +622,7 @@ width: 30px;
      margin-left:0px !important;
    }
    .sideHeading{
-    margin-left:0px !important;
+    margin-left: 0px !important;
   }
   .FAQ{
     height: 100vh !important;
@@ -666,6 +666,12 @@ margin-left: 200px !important;
 .header a img, .discodIcon{
   margin: 5px !important;
 
+}
+.home-sub-text{
+  width: 100% !important;
+}
+.calender{
+  margin: 5px !important;
 }
 
 }
