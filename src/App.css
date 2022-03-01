@@ -212,7 +212,6 @@ width: 30px;
   flex-direction: column;
   color: whitesmoke;
   cursor: pointer;
-  height: 200vh;
   overflow: hidden;
 }
 .faq-text div{
