@@ -621,6 +621,8 @@ width: 30px;
 
 
 @media all and (max-width: 440px){
+
+ 
   .roadmApText{
     overflow-y: hidden !important;
   }
@@ -628,7 +630,7 @@ width: 30px;
     background-color: rgb(185, 21, 21);
     border: 0;
     border-radius: 5px;
-    padding: 2px;
+    padding: 10px !important;
   }
   .wrapper{
     background-image: url("../public//banner.jpg") no-repeat center center fixed;
@@ -787,10 +789,14 @@ width: 30px;
   .images img {
      position: static !important;
   }
-
-
-
 }
+
+@media all and (max-width: 1500px){
+  .images img {
+     position: static !important;
+  }
+}
+
 
 
 
