@@ -224,10 +224,9 @@ function App() {
            <div className={`${(answer==true && index==3)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine"> A : Our Whitelist presale mint starts <br/> March 12, 2022 at 12:00 noon EST and last <br/>for 24 hours. Our public sale <br/>starts the following<br/> day March 13, 2022 at 12:00 noon EST.</div>
            
            <div onClick={()=>{questiClick(4)}}>Q : Where can I view my Evil Ape Club NFT ? {index==4 && answer==true?<FaSortUp/>:<FaSortDown/>} </div>
-           <div  className={`${(answer==true && index==4)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine">A : After a successful mint, <br/>you can view your Rebel Tiger on OpenSea.<br/> by connecting your wallet.</div>
+           <div  className={`${(answer==true && index==4)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine">A : After a successful mint, <br/>you can view your EVIL APE on OpenSea.<br/> by connecting your wallet.</div>
 
-           <div onClick={()=>{questiClick(5)}}    >Q : Where can I view my Evil Ape Club NFT ? {index==5  && answer==true?<FaSortUp/>:<FaSortDown/>}</div>
-           <div className={`${(answer==true && index==5)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine">A : WHAT IS THE EVIL APE</div>
+           
 
            <div onClick={()=>{questiClick(6)}}>Q : What Blockchain ? {index==6  && answer==true?<FaSortUp/>:<FaSortDown/>}</div>
            <div className={`${(answer==true && index==6)?'answerVisible':"anewers"}`}  data-aos="fade-down"   data-aos-easing="ease-in-sine">A : ETH Blockchain</div>
