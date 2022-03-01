@@ -719,6 +719,8 @@ width: 30px;
   .faq-text{
     margin-top: 100px !important;
     margin-left: 50px !important;
+    display: flex;
+    flex-direction: column;
   }
  
  
