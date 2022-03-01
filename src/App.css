@@ -384,8 +384,7 @@ width: 30px;
     
     position: static;
     margin-left: 20%;
-    width: 100px;
-    height: 100px;
+    
   }
   
 
@@ -407,6 +406,22 @@ width: 30px;
   .FAQ{
     height: 150vh !important;
     
+  }
+
+  .images{
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    overflow: hidden;
+
+  }
+  
+  .images img {
+    bottom: 100px;
+    position: absolute;
+    left: -300px !important;
+    
+    top: 10px !important;
   }
     
   
@@ -441,12 +456,16 @@ width: 30px;
  .roadMapImg{
    width: 300px;
  }
+ .images{
+   position: absolute;
+   margin-left: -200px !important;
+   width: 100%;
+ }
  .images img {
     
-  position: static;
-  margin-left: 20%;
-  width: 200px !important;
-  height: 200px !important;
+  position: relative;
+  left: 0px !important;
+  
   
 
 }
@@ -630,7 +649,7 @@ width: 30px;
     
   }
   .faq-text h2{
-margin-left: 200px !important;
+   margin-left: 200px !important;
   }
   .faq-text div{
     font-size: 15px !important;
@@ -702,6 +721,25 @@ margin-left: 200px !important;
     bottom: 100px;
     position: relative;
     right: -200px !important;
+    overflow: hidden;
+    left: 30px !important;
+    top: 10px !important;
+  }
+
+}
+@media all and (max-width: 2400px){
+  .images{
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+
+  }
+  
+  .images img {
+    bottom: 100px;
+    position: relative;
+    left: -100pxpx !important;
     overflow: hidden;
     left: 30px !important;
     top: 10px !important;
