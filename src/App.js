@@ -3,6 +3,7 @@ import './App.css';
 import { FaDiscord,FaSortDown,FaSortUp,FaInstagram,FaTwitter } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { height } from "@mui/system";
 
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
    <div className="imagesWraper">
      
     <div className="images">
-    <h2 style={{color:"white",fontSize:"45px"}}>My Gallery</h2>
+    <h2 style={{color:"white",fontSize:"45px",marginTop:"10px"}} className="gh">My Gallery</h2>
           <div>
           <img src="1.png" style={{position:"relative",bottom:"125px"}}/>
           <img src="2.png"/>
@@ -81,8 +82,8 @@ function App() {
           <img src="6.png" style={{position:"relative",bottom:"125px"}}/>
           </div>
           <div>
-          <img src="gallery-1.png" style={{position:"relative",bottom:"125px"}}/>
-          <img src="galler-2.png" style={{position:"relative",bottom:"125px"}}/>
+          <img src="gallery-1.png" style={{position:"relative",bottom:"125px",width:"650px", height:"350px"}}/>
+          <img src="galler-2.png" style={{position:"relative",bottom:"125px",width:"500px",height:"350px"}}/>
           </div>
          
           
