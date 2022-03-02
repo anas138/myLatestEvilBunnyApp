@@ -360,7 +360,7 @@ width: 30px;
 @media all and (max-width: 900px) {
 .FAQ{
   background-image: url("../public/faq-bg.png") no-repeat center center fixed;
-  webkit-background-size: cover;
+ 
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -410,11 +410,7 @@ width: 30px;
   align-items: center;
   text-align: center;
   }
-  .images img {
-    
-    
-    
-  }
+  
   
 
   .navButton{
@@ -457,7 +453,6 @@ width: 30px;
 
   .FAQ{
     background-image: url("../public/faq-bg.png") no-repeat center center fixed;
-    webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -504,13 +499,7 @@ width: 30px;
   align-items: center;
   text-align: center;
  }
- .images img {
-    
-  
-  
-  
-
-}
+ 
 
 .team{
   display: flex;
@@ -539,7 +528,7 @@ width: 30px;
 
   .FAQ{
     background-image: url("../public/faq-bg.png") no-repeat center center fixed;
-    webkit-background-size: cover;
+   
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -547,7 +536,7 @@ width: 30px;
   }
   .FAQ{
     background-image: url("../public/faq-bg.png") no-repeat center center fixed;
-    webkit-background-size: cover;
+    
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -577,9 +566,7 @@ width: 30px;
    .teamMembers img{
      text-align: center;
    }
-   .images img {
    
-   }
    .FAQ{
      margin-left: 50px;
    }
@@ -612,9 +599,7 @@ width: 30px;
 }
 @media all and (max-width: 1300px){
 
-  .images img {
-   
-  }
+  
   .FAQ{
     height: 150vh !important;
     
@@ -685,10 +670,7 @@ width: 30px;
      text-align: center;
      margin: 10px !important;
    }
-   .images{
-     
-    
-   }
+   
    .images div img {
     width: 80% !important ;
     height: 80% !important;
@@ -757,43 +739,9 @@ width: 30px;
 }
 
 }
-@media all and (main-width: 1000px){
-  .images{
-   
-  }
-  
-  .images img {
-    
-  }
 
-}
-@media all and (max-width: 1452px){
-  .images{
-   
 
-  }
-  
-  .images img {
-   
-  }
 
-}
-@media all and (max-width: 2400px){
-  .images{
-    
-
-  }
-  
-  .images img {
-   
-  }
-
-}
-@media all and (max-width: 1100px){
-  .images img {
-     
-  }
-}
 
 @media all and (max-width: 1161px){
   
