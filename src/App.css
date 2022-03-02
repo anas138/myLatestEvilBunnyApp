@@ -791,13 +791,14 @@ width: 30px;
 }
 @media all and (max-width: 1100px){
   .images img {
-     position: static !important;
+     
   }
 }
 
-@media all and (max-width: 1200px){
-  .images img {
-     position: static !important;
+@media all and (max-width: 1161px){
+  
+  #gimage{
+    bottom: 125px ;
   }
 }
 

@@ -73,18 +73,15 @@ function App() {
     <h2 style={{color:"white",fontSize:"45px",marginTop:"10px"}} className="gh">My Gallery</h2>
           <div>
           <img src="1.png" style={{position:"relative",bottom:"125px"}}/>
-          <img src="2.png"/>
-          <img src="3.png"/>
+          <img src="galler-2.png" style={{width:"320px",height:"390px"}} />
+          <img src="3.png"  style={{position:"relative"}} id="gimage"/>
           </div>
           <div>
-          <img src="4.png" style={{position:"relative",bottom:"125px"}}/>
+          <img src="gallery-1.png" style={{position:"relative",bottom:"125px"}}/>
           <img src="5.png" style={{position:"relative",bottom:"125px"}}/>
           <img src="6.png" style={{position:"relative",bottom:"125px"}}/>
           </div>
-          <div>
-          <img src="gallery-1.png" style={{position:"relative",bottom:"125px",width:"650px", height:"350px"}}/>
-          <img src="galler-2.png" style={{position:"relative",bottom:"125px",width:"500px",height:"350px"}}/>
-          </div>
+          
          
           
           
